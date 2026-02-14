@@ -15,6 +15,7 @@ export function Collapsible({
   const theme = useColorScheme() ?? "light";
   console.log("Collapsible", { title, isOpen });
   console.log("theme", theme);
+  console.log("isOpen", isOpen);
 
   return (
     <ThemedView>
